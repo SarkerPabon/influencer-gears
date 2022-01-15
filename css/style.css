@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
 
 body {
 	/* background: #aaa; */
@@ -124,4 +124,52 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	width: 200px;
+}
+
+/*------------------
+  footer
+-------------------*/
+footer {
+	margin-top: 100px;
+	background: #0a0826;
+	padding: 50px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.footer__heading {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 5px;
+}
+
+.footer__copyright {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Manrope", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.footer__reserved {
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.footer__icons {
+	margin-top: 17px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer__icons span {
+	padding: 0 5px;
+}
+
+.footer__icons span i {
+	background: rgba(245, 245, 245, 0.1);
+	padding: 8px;
+	border-radius: 50%;
+	color: #fff;
 }
